@@ -1,0 +1,20 @@
+body{background-color: rgb(71, 70, 116);}
+
+h1 {
+    background-color: white;
+    color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    font-family: Impact, 'Charcoal', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+h2 {
+    font-family: Arial, 'Gadget', sans-serif;
+    color:bisque;
+}
