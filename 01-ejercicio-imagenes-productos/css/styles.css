@@ -29,6 +29,10 @@ h2::first-letter {
     font-size: 40px;
 }
 
+img {
+    margin-left: 60px;
+}
+
 .Aspiradoras {
     color: rgb(230, 203, 191);
 }
@@ -47,4 +51,24 @@ h2::first-letter {
 
 .Televisores {
     color: rgb(178, 178, 170);
+}
+
+#Aspiradoras {
+    border: 5px solid rgb(230, 203, 191);
+}
+
+#Celulares {
+    border: 5px solid rgb(161, 193, 203);
+}
+
+#Consolas {
+    border: 5px solid rgb(188, 189, 191);
+}
+
+#Home_Theaters {
+    border: 5px solid rgb(141, 148, 161);
+}
+
+#Televisores {
+    border: 5px solid rgb(178, 178, 170);
 }
