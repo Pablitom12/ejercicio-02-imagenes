@@ -1,5 +1,10 @@
 body {
     background-color: rgb(39, 50, 56);
+    --color_aspiradoras: rgb(230, 203, 191);
+    --color_celulares: rgb(161, 193, 203);
+    --color_consolas: rgb(188, 189, 191);
+    --color_home_theaters: rgb(141, 148, 161);
+    --color_televisores: rgb(178, 178, 170);
 }
 
 h1 {
@@ -34,41 +39,41 @@ img {
 }
 
 .Aspiradoras {
-    color: rgb(230, 203, 191);
-}
-
-.Celulares {
-    color: rgb(161, 193, 203);
-}
-
-.Consolas {
-    color: rgb(188, 189, 191);
-}
-
-.Home_Theaters {
-    color: rgb(141, 148, 161);
-}
-
-.Televisores {
-    color: rgb(178, 178, 170);
+    color: var(--color_aspiradoras);
 }
 
 #Aspiradoras {
-    border: 5px solid rgb(230, 203, 191);
+    border: 5px solid var(--color_aspiradoras);
+}
+
+.Celulares {
+    color: var(--color_celulares);
 }
 
 #Celulares {
-    border: 5px solid rgb(161, 193, 203);
+    border: 5px solid var(--color_celulares);
+}
+
+.Consolas {
+    color: var(--color_consolas);
 }
 
 #Consolas {
-    border: 5px solid rgb(188, 189, 191);
+    border: 5px solid var(--color_consolas);
+}
+
+.Home_Theaters {
+    color: var(--color_home_theaters);
 }
 
 #Home_Theaters {
-    border: 5px solid rgb(141, 148, 161);
+    border: 5px solid var(--color_home_theaters);
+}
+
+.Televisores {
+    color: var(--color_televisores);
 }
 
 #Televisores {
-    border: 5px solid rgb(178, 178, 170);
+    border: 5px solid var(--color_televisores);
 }
