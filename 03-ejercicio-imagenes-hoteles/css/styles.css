@@ -4,6 +4,7 @@
 
 body {
     --color_titulos: rgb(186, 81, 150);
+    --color_parrafos: rgb(63, 120, 194);
 }
     
 .Logo_Disney {
@@ -31,7 +32,7 @@ h2 {
 
 p {
     font-size: 16px;
-    color: rgb(63, 120, 194);
+    color: var(--color_parrafos);
 }
 
 .imagen_derecha {
